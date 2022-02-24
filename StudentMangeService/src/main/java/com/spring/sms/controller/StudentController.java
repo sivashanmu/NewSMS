@@ -21,7 +21,7 @@ public class StudentController {
 
 	@GetMapping("/students")
 	public String getStudentList(Model model) {
-
+//welcome
 		System.out.println("StudentController called");
 
 		List<Student> obj = studentService.getAllStudentList();
