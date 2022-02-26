@@ -14,6 +14,7 @@ public class StudentMangeServiceApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentMangeServiceApplication.class, args);
+		System.out.println("welocme to git ");
 	}
 
 	@Autowired
