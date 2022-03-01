@@ -29,7 +29,6 @@ public class StudentController {
 		System.out.println("StudentController called");
 
 		List<Student> obj = studentService.getAllStudentList();
-		System.out.println(obj.toString());
 		model.addAttribute("students", studentService.getAllStudentList());
 		return "students";
 
